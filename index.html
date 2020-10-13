@@ -53,10 +53,77 @@
               </button>
             </div>
           </div>
-          <input class="btn btn-primary" type="reset" value="Clear Search" />
+          <input
+            class="btn btn-primary"
+            id="clear-search"
+            type="reset"
+            value="Clear Search"
+          />
+          <form id="weather-history"></form>
         </div>
+
         <!--Forecast Column-->
-        <div class="col-sm-8 forecast-col"></div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-12 forecast-col border border-dark rounded">
+              <!--City-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <span id="city-name"></span>
+                </div>
+              </div>
+              <!--Temperature-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <span id="temperature"></span>
+                </div>
+              </div>
+
+              <!--Humidity-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <span id="humidity"></span>
+                </div>
+              </div>
+
+              <!--Wind Speed-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <span id="wind-speed"></span>
+                </div>
+              </div>
+
+              <!--UV Index-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <span id="uv-index"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--5 Day Forecast-->
+          <div class="row">
+            <div class="col-sm-12"><h1>5-Day Forecast</h1></div>
+          </div>
+          <!--Weather Blocks-->
+          <div class="row">
+            <div
+              class="col forecast bg-primary text-white ml-3 mb-3 rounded"
+            ></div>
+            <div
+              class="col forecast bg-primary text-white ml-3 mb-3 rounded"
+            ></div>
+            <div
+              class="col forecast bg-primary text-white ml-3 mb-3 rounded"
+            ></div>
+            <div
+              class="col forecast bg-primary text-white ml-3 mb-3 rounded"
+            ></div>
+            <div
+              class="col forecast bg-primary text-white ml-3 mb-3 rounded"
+            ></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
