@@ -1,1 +1,5 @@
-
+.navbar-brand {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 30px;
+}
