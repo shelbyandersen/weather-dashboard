@@ -1,5 +1,18 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .navbar-brand {
   margin: 0 auto;
   padding: 10px;
-  font-size: 30px;
+}
+
+.search-col {
+  background: #f8f8f8;
+  padding-top: 5px;
 }
