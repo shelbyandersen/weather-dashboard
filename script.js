@@ -1,3 +1,5 @@
 $(document).ready(function () {
-  console.log("ready!");
+  var cityInput = $("#city-input");
+  var searchBtn = $("#button-addon2");
+  var clearBtn = $("#clear-search");
 });
