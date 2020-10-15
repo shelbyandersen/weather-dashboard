@@ -8,6 +8,8 @@ A user may clear the current city if they choose, and enter a new one. When they
 
 If a user clicks on a past city, the weather will display for that city.
 
+![Weather Application](./Assets/weather-app.png)
+
 Final Website Link: https://shelbyandersen.github.io/weather-dashboard/
 
 ## Overview
