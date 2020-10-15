@@ -7,6 +7,10 @@ h2 {
   font-weight: bold;
 }
 
+p {
+  display: inline-block;
+}
+
 .navbar-brand {
   margin: 0 auto;
   padding: 10px;
@@ -21,10 +25,14 @@ h2 {
   margin: 1rem;
 }
 
-.col-sm-12 {
-  padding-top: 15px;
-}
-
 #clear-search {
   margin-bottom: 20px;
+}
+
+#uv-index {
+  margin-left: 2px;
+}
+
+#future-weather {
+  text-align: center;
 }
