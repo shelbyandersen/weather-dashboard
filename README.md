@@ -20,12 +20,12 @@ This application uses the Open Weather API: https://openweathermap.org/
 
 ## Installation
 
-The code for the Work Day Scheduler can be found on github using the following link:
+The code for the Weather Dashboard can be found on github using the following link:
 https://github.com/shelbyandersen/weather-dashboard
 
 ## Usage
 
-The Workday Scheduler has an HTML, CSS, and JavaScript file. The code utilizes the Open Weather API to gather current weather data and display it to the user.
+The Weather Dashboard has an HTML, CSS, and JavaScript file. The code utilizes the Open Weather API to gather current weather data and display it to the user.
 
 Code will need to be taken from the repo on github and changes can be made:
 
